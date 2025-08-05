@@ -1,0 +1,11 @@
+Command: ninja all
+[0/1] Re-running CMake...
+-- Minimal build - OFF
+-- ccache will be used for faster recompilation
+-- git rev-parse returned 'fatal: not a git repository (or any parent up to mount point /workspaces)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32p4
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+/opt/esp/tools/cmake/3.30.2/bin/cmake --regenerate-during-build -S/workspaces/mode7-ble-racer-why2025 -B/workspaces/mode7-ble-racer-why2025/build

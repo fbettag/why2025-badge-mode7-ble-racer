@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/workspaces/mode7-ble-racer-why2025/build/CMakeFiles/bootloader
+/workspaces/mode7-ble-racer-why2025/build/CMakeFiles/bootloader.rule
+/workspaces/mode7-ble-racer-why2025/build/CMakeFiles/bootloader-complete.rule
+/workspaces/mode7-ble-racer-why2025/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/workspaces/mode7-ble-racer-why2025/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/workspaces/mode7-ble-racer-why2025/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/workspaces/mode7-ble-racer-why2025/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/workspaces/mode7-ble-racer-why2025/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/workspaces/mode7-ble-racer-why2025/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/workspaces/mode7-ble-racer-why2025/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

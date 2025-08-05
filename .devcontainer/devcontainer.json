@@ -1,0 +1,42 @@
+{
+  "name": "Mode7 Racer - WHY2025 Badge Development",
+  "image": "espressif/idf:latest",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "espressif.esp-idf-extension",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-python.python",
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "ms-vscode.vscode-serial-monitor",
+        "marus25.cortex-debug",
+        "ms-vscode.hexeditor",
+        "twxs.cmake",
+        "ms-vscode.cmake-tools",
+        "cschlosser.doxdocgen"
+      ],
+      "settings": {
+        "esp-idf.espIdfPath": "/opt/esp/esp-idf",
+        "esp-idf.espAdfPath": "/opt/esp/esp-adf",
+        "esp-idf.espMdfPath": "/opt/esp/esp-mdf",
+        "esp-idf.toolsPath": "/opt/esp",
+        "esp-idf.gitPath": "/usr/bin/git",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+      }
+    }
+  },
+
+  "features": {
+      "ghcr.io/anthropics/devcontainer-features/claude-code:1.0.5": {}
+  },
+
+  "runArgs": [
+    "--privileged"
+  ]
+}

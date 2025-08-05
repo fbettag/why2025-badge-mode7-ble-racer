@@ -1,0 +1,2 @@
+source /workspaces/mode7-ble-racer-why2025/build/gdbinit/symbols
+source /workspaces/mode7-ble-racer-why2025/build/gdbinit/connect

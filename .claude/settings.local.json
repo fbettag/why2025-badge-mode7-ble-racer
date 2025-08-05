@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(idf.py:*)",
+      "Bash(. /opt/esp/idf/export.sh)",
+      "Bash(ls:*)",
+      "Bash(rm:*)",
+      "Bash(mkdir:*)",
+      "Bash(touch:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}

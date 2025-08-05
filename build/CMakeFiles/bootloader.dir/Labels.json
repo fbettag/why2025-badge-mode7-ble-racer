@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/mode7-ble-racer-why2025/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/workspaces/mode7-ble-racer-why2025/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/workspaces/mode7-ble-racer-why2025/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/workspaces/mode7-ble-racer-why2025/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/workspaces/mode7-ble-racer-why2025/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/workspaces/mode7-ble-racer-why2025/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/workspaces/mode7-ble-racer-why2025/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/workspaces/mode7-ble-racer-why2025/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/mode7-ble-racer-why2025/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/workspaces/mode7-ble-racer-why2025/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

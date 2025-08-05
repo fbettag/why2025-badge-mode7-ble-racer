@@ -1,0 +1,58 @@
+# Build outputs
+build/
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.map
+
+# ESP-IDF specific
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults.*
+*.svd
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+
+# Logs
+*.log
+log_*.txt
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+
+# Debug files
+*.dSYM/
+core
+core.*
+
+# Documentation build
+docs/_build/
+doxygen/
+
+# User-specific files
+.env
+.env.local
+*.user
+
+# ESP-IDF managed components
+managed_components/
+dependencies.lock

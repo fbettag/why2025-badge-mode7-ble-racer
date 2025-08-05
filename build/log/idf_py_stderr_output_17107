@@ -1,0 +1,56 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/opt/esp/python_env/idf6.0_py3.12_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 /workspaces/mode7-ble-racer-why2025
+CMake Error at /opt/esp/idf/tools/cmake/component.cmake:491 (add_library):
+  Cannot find source file:
+
+    /workspaces/mode7-ble-racer-why2025/components/display/rgb_panel.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+  .f95 .f03 .hip .ispc
+Call Stack (most recent call first):
+  components/display/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Error at /opt/esp/idf/tools/cmake/component.cmake:491 (add_library):
+  Cannot find source file:
+
+    /workspaces/mode7-ble-racer-why2025/components/utils/logging.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+  .f95 .f03 .hip .ispc
+Call Stack (most recent call first):
+  components/utils/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Error at /opt/esp/idf/tools/cmake/component.cmake:491 (add_library):
+  Cannot find source file:
+
+    /workspaces/mode7-ble-racer-why2025/components/game/mode7.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+  .f95 .f03 .hip .ispc
+Call Stack (most recent call first):
+  components/game/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Error at /opt/esp/idf/tools/cmake/component.cmake:491 (add_library):
+  No SOURCES given to target: __idf_display
+Call Stack (most recent call first):
+  components/display/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Error at /opt/esp/idf/tools/cmake/component.cmake:491 (add_library):
+  No SOURCES given to target: __idf_utils
+Call Stack (most recent call first):
+  components/utils/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Error at /opt/esp/idf/tools/cmake/component.cmake:491 (add_library):
+  No SOURCES given to target: __idf_game
+Call Stack (most recent call first):
+  components/game/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
